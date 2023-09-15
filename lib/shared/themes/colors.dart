@@ -13,3 +13,4 @@ var darkRed = Color.fromARGB(255, 146, 0, 0);
 var blueGray = Colors.blueGrey;
 var transparent = Colors.transparent;
 var teal = Colors.teal;
+var blue3 = Color.fromARGB(136, 177, 185, 207);
