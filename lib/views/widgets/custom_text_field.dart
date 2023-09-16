@@ -11,17 +11,16 @@ class CustomTextField extends StatelessWidget {
       cursorColor: blue3.withOpacity(1),
       decoration: InputDecoration(
         label: Text('Note Title'),
+        floatingLabelStyle: TextStyle(color: blue3.withOpacity(1)),
         labelStyle: title1Bold.merge(
           TextStyle(
-            color: blue3.withOpacity(0.5),
+            color: white.withOpacity(0.8),
             fontSize: 18,
           ),
         ),
         border: cutomBorder(),
         enabledBorder: cutomBorder(),
-        focusedBorder: cutomBorder(
-          color: blue3.withOpacity(1),
-        ),
+        focusedBorder: cutomBorder(color: blue3.withOpacity(1)),
       ),
     );
   }
