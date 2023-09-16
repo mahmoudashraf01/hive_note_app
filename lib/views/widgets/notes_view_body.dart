@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:hive_note_app/shared/themes/colors.dart';
-import 'package:hive_note_app/shared/themes/text.dart';
 import 'package:hive_note_app/views/widgets/custom_app_bar.dart';
-import 'package:hive_note_app/views/widgets/note_item.dart';
+import 'package:hive_note_app/views/widgets/notes_list_view.dart';
 
 class NotesViewBody extends StatelessWidget {
   const NotesViewBody({super.key});
@@ -18,11 +15,11 @@ class NotesViewBody extends StatelessWidget {
             height: 50,
           ),
           CustomAppBar(),
-          NotesItem(),
+          Expanded(
+            child: NotesListView(),
+          ),
         ],
       ),
     );
   }
 }
-
-
