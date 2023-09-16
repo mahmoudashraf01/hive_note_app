@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_note_app/shared/themes/colors.dart';
+import 'package:hive_note_app/views/widgets/cutom_buttom_sheet.dart';
 import 'package:hive_note_app/views/widgets/notes_view_body.dart';
 
 class NotesView extends StatelessWidget {
