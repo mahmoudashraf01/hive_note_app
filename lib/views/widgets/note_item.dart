@@ -26,7 +26,7 @@ class NotesItem extends StatelessWidget {
             ListTile(
               title: Text(
                 'Flutter Notes',
-                style: h5Bold.merge(
+                style: h4Bold.merge(
                   TextStyle(color: black),
                 ),
               ),
