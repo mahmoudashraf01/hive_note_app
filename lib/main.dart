@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hive_note_app/shared/themes/colors.dart';
 import 'package:hive_note_app/views/notes_view.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Notes App',
       theme: ThemeData(
         brightness: Brightness.dark,
+        primaryColor: blue3.withOpacity(1),
       ),
       home: NotesView(),
       debugShowCheckedModeBanner: false,
