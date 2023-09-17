@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hive_note_app/shared/themes/colors.dart';
-import 'package:hive_note_app/shared/themes/text.dart';
-import 'package:hive_note_app/views/widgets/custom_text_field.dart';
-import 'package:hive_note_app/views/widgets/cutom_buttom.dart';
+import 'package:hive_note_app/widgets/custom_text_field.dart';
+import 'package:hive_note_app/widgets/cutom_buttom.dart';
 
 class ButtomSheetAddNote extends StatelessWidget {
   const ButtomSheetAddNote({super.key});
