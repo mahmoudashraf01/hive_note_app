@@ -3,14 +3,22 @@ import 'package:hive_note_app/shared/themes/colors.dart';
 import 'package:hive_note_app/shared/themes/text.dart';
 
 class CustomTextField extends StatelessWidget {
-  const CustomTextField({super.key});
+  const CustomTextField({
+    super.key,
+    required this.hint,
+     this.maxLines = 1,
+  });
+
+  final String hint;
+  final int maxLines;
 
   @override
   Widget build(BuildContext context) {
     return TextField(
       cursorColor: blue3.withOpacity(1),
+      maxLines: maxLines,
       decoration: InputDecoration(
-        label: Text('Note Title'),
+        label: Text(hint),
         floatingLabelStyle: TextStyle(color: blue3.withOpacity(1)),
         labelStyle: title1Bold.merge(
           TextStyle(
