@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_note_app/shared/themes/text.dart';
-import 'package:hive_note_app/views/widgets/custom_search_icon.dart';
 import 'package:hive_note_app/widgets/back_button.dart';
+import 'package:hive_note_app/widgets/custom_search_icon.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});

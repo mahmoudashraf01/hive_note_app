@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_note_app/shared/themes/colors.dart';
 
 class CustomSearchIcon extends StatelessWidget {
-  const CustomSearchIcon({super.key});
+  const CustomSearchIcon({super.key, required IconData icon});
 
   @override
   Widget build(BuildContext context) {
