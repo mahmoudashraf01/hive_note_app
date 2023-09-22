@@ -23,6 +23,7 @@ class NotesView extends StatelessWidget {
           );
         },
         backgroundColor: blue3.withOpacity(1),
+        shape: CircleBorder(),
         child: Icon(Icons.add),
       ),
       body: const NotesViewBody(),
