@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Notes App',
-      theme: ThemeData(
+      theme: ThemeData( 
         brightness: Brightness.dark,
         primaryColor: blue3.withOpacity(1),
       ),
